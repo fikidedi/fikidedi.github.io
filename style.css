@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.container {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    position: absolute;
+    /*margin: 0 auto;*/
+    display: inline-block;
+    text-align: center;
+    /*background-color: lightblue;*/
+}
+img{
+	border-radius: 50%;
+	width: 30%;
+}
+.container h1{
+	margin:0px;
+	font-size: 40px;
+}
+.container h2{
+	color:#AAAAAA;
+	font-size: 18px;
+	margin:2px;
+}
+footer{
+	margin-top: 5px;
+	color:#AAAAAA;
+}
+a{
+	text-decoration: none;
+	/*color:#AAAAAA;*/
+}
+hr{
+	margin-top:20px;
+	opacity: 30%;
+}
+.love{
+	color:red;
+}
+.medsos{
+	margin-top:30px;
+}
+.medsos i{
+	font-size: 30px;
+	margin-right: 7px;
+}
+.medsos a{
+	color:black;
+}
+.medsos a:hover{
+	color:blue;
+}
+.medsos a:active{
+	color:green;
+}
+
+
+@media only screen and (max-width: 600px) {
+  	img{
+  		border-radius: 50%;
+  		width: 80%;
+  	}
+  	.container h1{
+		margin:0px;
+		font-size: 30px;
+	}
+  	.container h2{
+  		font-size: 13px;
+  	}
+  	hr{
+		margin-top:20px;
+		opacity: 30%;
+	}
+
+}
